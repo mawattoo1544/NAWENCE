@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="fav-grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1422" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+    <linearGradient id="fav-grad-n" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF" />
+      <stop offset="100%" stop-color="#20D6C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background tile -->
+  <rect width="48" height="48" rx="12" fill="url(#fav-grad-bg)" stroke="#202A3C" stroke-width="1.5" />
+
+  <!-- N Mark -->
+  <g transform="translate(8, 8)">
+    <path d="M4 28V6C4 4.89543 4.89543 4 6 4H10C11.1046 4 12 4.89543 12 6V28C12 29.1046 11.1046 30 10 30H6C4.89543 30 4 29.1046 4 28Z" fill="#5B38EA" />
+    <path d="M10 4H14.5L24.5 24H20L10 4Z" fill="url(#fav-grad-n)" />
+    <path d="M20 28V6C20 4.89543 20.8954 4 22 4H26C27.1046 4 28 4.89543 28 6V28C28 29.1046 27.1046 30 26 30H22C20.8954 30 20 29.1046 20 28Z" fill="url(#fav-grad-n)" />
+    <circle cx="24" cy="7" r="2.5" fill="#20D6C7" />
+  </g>
+</svg>

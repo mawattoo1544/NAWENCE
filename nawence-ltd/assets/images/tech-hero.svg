@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Glows -->
+    <radialGradient id="orb-glow-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#7C5CFF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#070A12" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orb-glow-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#20D6C7" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#20D6C7" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#070A12" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glass Gradients -->
+    <linearGradient id="glass-bg-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1422" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#070A12" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="glass-border-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#202A3C" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#20D6C7" stop-opacity="0.4" />
+    </linearGradient>
+    
+    <linearGradient id="cyan-purple-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF" />
+      <stop offset="100%" stop-color="#20D6C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Orbs -->
+  <circle cx="360" cy="200" r="220" fill="url(#orb-glow-1)" />
+  <circle cx="180" cy="340" r="180" fill="url(#orb-glow-2)" />
+
+  <!-- Isometric Tech Grid Lines -->
+  <g stroke="#202A3C" stroke-width="1" stroke-opacity="0.4">
+    <line x1="80" y1="120" x2="520" y2="120" stroke-dasharray="4 8" />
+    <line x1="80" y1="240" x2="520" y2="240" stroke-dasharray="4 8" />
+    <line x1="80" y1="360" x2="520" y2="360" stroke-dasharray="4 8" />
+    <line x1="160" y1="60" x2="160" y2="460" stroke-dasharray="4 8" />
+    <line x1="300" y1="60" x2="300" y2="460" stroke-dasharray="4 8" />
+    <line x1="440" y1="60" x2="440" y2="460" stroke-dasharray="4 8" />
+  </g>
+
+  <!-- Central Mobile Interface Frame Mockup (Clean Glassmorphism) -->
+  <g transform="translate(180, 70)">
+    <!-- Device Body -->
+    <rect width="240" height="380" rx="32" fill="url(#glass-bg-1)" stroke="url(#glass-border-1)" stroke-width="2" />
+    
+    <!-- Status Bar / Dynamic Island -->
+    <rect x="80" y="16" width="80" height="14" rx="7" fill="#202A3C" />
+    <circle cx="150" cy="23" r="2" fill="#20D6C7" />
+
+    <!-- App UI Mock Elements inside Device -->
+    <!-- Header Block -->
+    <rect x="24" y="48" width="100" height="12" rx="4" fill="#9AA6BB" fill-opacity="0.6" />
+    <rect x="24" y="66" width="60" height="8" rx="3" fill="#64748B" fill-opacity="0.4" />
+    
+    <!-- Hero UI Card inside Phone -->
+    <rect x="24" y="90" width="192" height="96" rx="16" fill="#0A0F1B" stroke="#202A3C" stroke-width="1" />
+    <rect x="40" y="106" width="36" height="36" rx="10" fill="url(#cyan-purple-accent)" />
+    <path d="M54 116L64 124L54 132" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="88" y="112" width="80" height="10" rx="3" fill="#F5F7FB" />
+    <rect x="88" y="128" width="55" height="8" rx="3" fill="#7C5CFF" />
+    <rect x="40" y="156" width="160" height="6" rx="3" fill="#202A3C" />
+    <rect x="40" y="156" width="110" height="6" rx="3" fill="url(#cyan-purple-accent)" />
+
+    <!-- List item 1 -->
+    <rect x="24" y="200" width="192" height="48" rx="12" fill="#0A0F1B" stroke="#202A3C" stroke-width="1" />
+    <circle cx="48" cy="224" r="12" fill="#7C5CFF" fill-opacity="0.2" />
+    <path d="M44 224L47 227L53 221" stroke="#7C5CFF" stroke-width="2" stroke-linecap="round" />
+    <rect x="70" y="216" width="70" height="8" rx="3" fill="#F5F7FB" />
+    <rect x="70" y="228" width="45" height="6" rx="2" fill="#64748B" />
+
+    <!-- List item 2 -->
+    <rect x="24" y="258" width="192" height="48" rx="12" fill="#0A0F1B" stroke="#202A3C" stroke-width="1" />
+    <circle cx="48" cy="282" r="12" fill="#20D6C7" fill-opacity="0.2" />
+    <path d="M44 282L47 285L53 279" stroke="#20D6C7" stroke-width="2" stroke-linecap="round" />
+    <rect x="70" y="274" width="85" height="8" rx="3" fill="#F5F7FB" />
+    <rect x="70" y="286" width="50" height="6" rx="2" fill="#64748B" />
+
+    <!-- Bottom Nav Bar -->
+    <rect x="24" y="324" width="192" height="36" rx="18" fill="#0A0F1B" stroke="#202A3C" stroke-width="1" />
+    <circle cx="60" cy="342" r="5" fill="#7C5CFF" />
+    <circle cx="120" cy="342" r="5" fill="#64748B" fill-opacity="0.5" />
+    <circle cx="180" cy="342" r="5" fill="#64748B" fill-opacity="0.5" />
+  </g>
+
+  <!-- Floating Badge Left: Google Play Ready -->
+  <g transform="translate(60, 180)">
+    <rect width="160" height="64" rx="14" fill="#0E1422" fill-opacity="0.95" stroke="#7C5CFF" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="16" fill="#7C5CFF" fill-opacity="0.2" />
+    <path d="M26 24L38 32L26 40V24Z" fill="#7C5CFF" />
+    <text x="56" y="27" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F5F7FB">Google Play</text>
+    <text x="56" y="43" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#20D6C7">Publishing Ready</text>
+  </g>
+
+  <!-- Floating Badge Right: Clean Architecture -->
+  <g transform="translate(380, 290)">
+    <rect width="168" height="64" rx="14" fill="#0E1422" fill-opacity="0.95" stroke="#20D6C7" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="16" fill="#20D6C7" fill-opacity="0.2" />
+    <path d="M26 32L30 36L38 28" stroke="#20D6C7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="56" y="27" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F5F7FB">Clean &amp; Scalable</text>
+    <text x="56" y="43" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#9AA6BB">UK Limited Co.</text>
+  </g>
+
+  <!-- Floating Connection Particles -->
+  <circle cx="160" cy="140" r="3" fill="#20D6C7" />
+  <circle cx="450" cy="180" r="4" fill="#7C5CFF" />
+  <circle cx="430" cy="420" r="3" fill="#20D6C7" />
+  <circle cx="140" cy="380" r="3" fill="#7C5CFF" />
+</svg>

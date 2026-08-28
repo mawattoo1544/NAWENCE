@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="app-icon-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2338" />
+      <stop offset="100%" stop-color="#0E1422" />
+    </linearGradient>
+    <linearGradient id="app-icon-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF" />
+      <stop offset="100%" stop-color="#20D6C7" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#app-icon-bg)" stroke="#202A3C" stroke-width="2" />
+  <circle cx="60" cy="60" r="32" fill="#7C5CFF" fill-opacity="0.12" stroke="#7C5CFF" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M48 48L60 38L72 48V72L60 82L48 72V48Z" fill="url(#app-icon-accent)" />
+  <circle cx="60" cy="60" r="6" fill="#0E1422" />
+</svg>

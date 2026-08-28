@@ -1,0 +1,6 @@
+{
+  "name": "NAWENCE LTD",
+  "description": "Official corporate website for NAWENCE LTD - Mobile Apps & Digital Solutions and Google Play publishing support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

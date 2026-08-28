@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40" fill="none">
+  <defs>
+    <linearGradient id="logo-grad-a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF" />
+      <stop offset="100%" stop-color="#20D6C7" />
+    </linearGradient>
+    <linearGradient id="logo-grad-b" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5B38EA" />
+      <stop offset="100%" stop-color="#7C5CFF" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Geometric N Emblem -->
+  <g transform="translate(4, 4)">
+    <!-- Left Column -->
+    <path d="M4 28V6C4 4.89543 4.89543 4 6 4H10C11.1046 4 12 4.89543 12 6V28C12 29.1046 11.1046 30 10 30H6C4.89543 30 4 29.1046 4 28Z" fill="url(#logo-grad-b)" />
+    
+    <!-- Diagonal Bridge -->
+    <path d="M10 4H14.5L24.5 24H20L10 4Z" fill="url(#logo-grad-a)" />
+    
+    <!-- Right Column -->
+    <path d="M20 28V6C20 4.89543 20.8954 4 22 4H26C27.1046 4 28 4.89543 28 6V28C28 29.1046 27.1046 30 26 30H22C20.8954 30 20 29.1046 20 28Z" fill="url(#logo-grad-a)" />
+
+    <!-- Subtle Tech Accent Node -->
+    <circle cx="24" cy="7" r="2.5" fill="#20D6C7" filter="url(#glow)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="44" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#F5F7FB">NAWENCE</text>
+  <text x="134" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1" fill="#7C5CFF">LTD</text>
+</svg>
